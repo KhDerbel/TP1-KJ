@@ -1,6 +1,6 @@
-#READMME TP1
+# READMME TP1
 
-##Config de Base Apache et GIT
+## Config de Base Apache et GIT
 1. Installer Apache: sudo apt-get install apache2
 2. Modifier le fichier: sudo vim /var/www/html/index.html
 3. Redémarrer le service: Sudo systemctl restart apache2
@@ -8,7 +8,7 @@
 5. Copier la config de base de apache: sudo cp 000-default.conf /home/utilisateur/TP1/
 6. Copier la config de base de apache (index html): sudo cp /var/www/html/index.html ~/TP1
 
-##Création du Git
+## Création du Git
 
 1. Initialiser le git: sudo git init
 2. Ajouter les fichiers: sudo git add index.html && 000 && README.md
@@ -17,12 +17,12 @@
 5. Le lien vers le git: sudo git remote add origin https://github.com/KhDerbel/TP1-KJ.git
 6. Push les fichiers vers le git: sudo git push -u origin master
 
-##Création de la branche modif
+## Création de la branche modif
 
 1. Créer la branche: sudo git branch "modif"
 2. Aller sur la branche: sudo git checkout modif
 
-##Création du docker
+## Création du docker
 
 1. Créer un dossier: sudo mkdir dockerTP1
 2. Créer le Dockerfile: sudo vim Dockerfile
